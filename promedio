@@ -6,7 +6,7 @@ import java.util.scanner;
 
 
     public static void main(String[] args) {
-      
+      double num1, num2, num3
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce el primer numero: ");
         double num1 = scanner.nextDouble();
