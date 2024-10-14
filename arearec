@@ -1,10 +1,11 @@
 import java.util.scanner;
 
 
- class arearec
+ public class arearec
  {
    public static void main(String args[])
    { 
+double longitud,ancho
     Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce la longitud : ");
         double longitud = scanner.nextDouble();
