@@ -1,0 +1,19 @@
+import java.util.scanner;
+
+
+ class arearec
+ {
+   public static void main(String args[])
+   { 
+    Scanner scanner = new Scanner(System.in);
+        System.out.print("Introduce la longitud : ");
+        double longitud = scanner.nextDouble();
+        System.out.print("Introduce el ancho : ");
+        double ancho = scanner.nextDouble();
+        double area = longitud * ancho;
+        System.out.println("El área del rectángulo es: " + area);
+       
+        scanner.close();
+    }
+}
+
